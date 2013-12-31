@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Brave\n"
+"POT-Creation-Date: 2013-08-05 21:09+0200\n"
+"PO-Revision-Date: 2013-08-05 21:13+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:9
+msgid "Whoops!"
+msgstr ""
+
+#: ../404.php:10
+msgid ""
+"Looks like you found a page that does not quite exist anymore, or perhaps it "
+"never did. But no worries; simply use the menubar above to navigate to where "
+"you need to be, or..."
+msgstr ""
+
+#: ../404.php:16
+msgid "Head directly to the front page"
+msgstr ""
+
+#: ../archive.php:14
+msgid "Daily archives"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Monthly archives"
+msgstr ""
+
+#: ../archive.php:24
+msgid "Yearly archives"
+msgstr ""
+
+#: ../author.php:15
+msgid "Showing posts by"
+msgstr ""
+
+#: ../category.php:13
+msgid "Showing posts in category"
+msgstr ""
+
+#: ../comments.php:6
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:29 ../page-contact.php:104
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:32
+msgid "Email (hidden)"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Type your comment here..."
+msgstr ""
+
+#: ../comments.php:38
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Post comment"
+msgstr ""
+
+#: ../comments.php:92
+msgid "Apologies, for this post the comments are closed."
+msgstr ""
+
+#: ../functions.php:13
+msgid "Header background"
+msgstr ""
+
+#: ../functions.php:14
+msgid "Site name hover color"
+msgstr ""
+
+#: ../functions.php:15
+msgid "Site name color"
+msgstr ""
+
+#: ../functions.php:16
+msgid "Title color"
+msgstr ""
+
+#: ../functions.php:17
+msgid "Title hover color"
+msgstr ""
+
+#: ../functions.php:18
+msgid "Link color (inside post/page content)"
+msgstr ""
+
+#: ../functions.php:19
+msgid "Link hover color (inside post/page content)"
+msgstr ""
+
+#: ../functions.php:20
+msgid "Comment form background color"
+msgstr ""
+
+#: ../functions.php:21
+msgid "Comment form button color"
+msgstr ""
+
+#: ../functions.php:22
+msgid "Read/leave comments button"
+msgstr ""
+
+#: ../functions.php:23
+msgid "Read/leave comments button hover"
+msgstr ""
+
+#: ../functions.php:24
+msgid "Author/date button"
+msgstr ""
+
+#: ../functions.php:25
+msgid "Author/date button hover"
+msgstr ""
+
+#: ../functions.php:26
+msgid "Tags button"
+msgstr ""
+
+#: ../functions.php:27
+msgid "Tags button hover"
+msgstr ""
+
+#: ../functions.php:28
+msgid "Footer background color"
+msgstr ""
+
+#: ../functions.php:29
+msgid "Comment area background color"
+msgstr ""
+
+#: ../functions.php:46 ../functions.php:54
+msgid "Logo"
+msgstr ""
+
+#: ../functions.php:67 ../functions.php:68
+msgid "Custom Background Color"
+msgstr ""
+
+#: ../functions.php:174
+msgid "Footer Widgets (full width)"
+msgstr ""
+
+#: ../functions.php:176 ../functions.php:186 ../functions.php:196
+msgid "Drag widgets here"
+msgstr ""
+
+#: ../functions.php:184
+msgid "Footer Widgets (2 columns)"
+msgstr ""
+
+#: ../functions.php:194
+msgid "Footer Widgets (3 columns)"
+msgstr ""
+
+#: ../functions.php:449
+msgid "(Your comment is awaiting moderation.)"
+msgstr ""
+
+#: ../functions.php:452
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:456
+msgid "Reply"
+msgstr ""
+
+#: ../index.php:17
+msgid "Apologies, nothing found."
+msgstr ""
+
+#: ../page-archive.php:13
+msgid "Yearly"
+msgstr ""
+
+#: ../page-archive.php:18
+msgid "Monthly"
+msgstr ""
+
+#: ../page-archive.php:23
+msgid "Authors"
+msgstr ""
+
+#: ../page-archive.php:28
+msgid "Categories"
+msgstr ""
+
+#: ../page-archive.php:33
+msgid "Tags"
+msgstr ""
+
+#: ../page-contact.php:57 ../page-no-title.php:57 ../page.php:60
+#: ../includes/loop.php:97
+msgid "Pages:"
+msgstr ""
+
+#: ../page-contact.php:62 ../page-no-title.php:62 ../page.php:65
+#: ../includes/loop.php:102
+msgid "EDIT"
+msgstr ""
+
+#: ../page-contact.php:79
+msgid "Your message has been sent.<br> Thank you!"
+msgstr ""
+
+#: ../page-contact.php:84
+msgid "Please make sure you have entered:"
+msgstr ""
+
+#: ../page-contact.php:84
+msgid " your message"
+msgstr ""
+
+#: ../page-contact.php:84
+msgid " your name"
+msgstr ""
+
+#: ../page-contact.php:84
+msgid " a valid email address"
+msgstr ""
+
+#: ../page-contact.php:103
+msgid "Type your message here.."
+msgstr ""
+
+#: ../page-contact.php:105
+msgid "Email"
+msgstr ""
+
+#: ../page-contact.php:106
+msgid "Send message"
+msgstr ""
+
+#: ../search.php:16
+msgid "Showing results for:"
+msgstr ""
+
+#: ../search.php:48
+msgid "Sorry, no results for"
+msgstr ""
+
+#: ../searchform.php:6
+msgid "find something.."
+msgstr ""
+
+#: ../tag.php:16
+msgid "Displaying all posts tagged with"
+msgstr ""
+
+#: ../includes/loop.php:33
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../includes/loop.php:55
+msgid "by"
+msgstr ""
+
+#: ../includes/loop.php:64
+msgid "Tagged with: "
+msgstr ""
+
+#: ../includes/loop.php:78
+msgid "VIEW FULL POST +"
+msgstr ""
+
+#: ../includes/loop.php:86
+msgid "COMMENTS CLOSED"
+msgstr ""

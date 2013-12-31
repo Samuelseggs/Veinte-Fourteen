@@ -1,0 +1,146 @@
+/* MAX-WIDTH 1000px
+**************************************************/
+@media screen and (max-width: 1000px) {
+
+.format-standard .entry-content {
+	padding-left:40px;
+	padding-right:40px;
+}
+.post-title, .page-title, .page-title-left, .post-title a, .page-title a, .page-title-left a {
+	margin-left:50px;
+	margin-right:50px;
+}
+/* comment form */
+#author-wrapper {
+	width:100%;
+	margin-right:0;
+}
+#email-wrapper {
+	width:100%;
+}
+#respond { padding-right:18px !important; }
+
+}
+/**************************************************/
+
+
+
+/* MAX-WIDTH 800px
+**************************************************/
+@media screen and (max-width: 800px) {
+
+/* widgets */
+.footer-widgets-3-columns .widget {
+	width:46.3%;
+}
+
+}
+/**************************************************/
+
+
+
+/* MAX-WIDTH 650px
+**************************************************/
+@media screen and (max-width: 650px) {
+
+.entry-content,
+.format-standard .entry-content,
+.format-aside .entry-content,
+.format-chat .entry-content p {
+	padding-left:10px;
+	padding-right:10px;
+	font-size:16px;
+	line-height:24px;
+}
+
+.post-title, .page-title, .page-title-left, .post-title a, .page-title a, .page-title-left a,
+.format-status .entry-content p,
+.format-link .entry-content p,
+.format-quote .entry-content blockquote p {
+	margin-left:0;
+	margin-right:0;
+	font-size:30px;
+	line-height:30px;
+	font-weight:600;
+}
+
+/* widgets */
+.footer-widgets-2-columns .widget, .footer-widgets-3-columns .widget {
+	width:90%;
+}
+
+/* make menu button full width */
+.menu-button { width:100%; }
+/* place menu on the right */
+#menu { left:auto; right:5px; }
+
+/* increase height of header wrapper */
+#header-wrapper {
+	height:110px;
+}
+/* place icon menu below menu button */
+.bonfire-icon-menu {
+	top:55px;
+}
+/* place search button and field below menu button */
+#header-search, .searchform-wrapper {
+	top:55px;
+}
+
+
+}
+/**************************************************/
+
+
+
+/* MAX-WIDTH 320px
+**************************************************/
+@media screen and (max-width: 320px) {
+
+/* menu adjustments for mobile screens */
+#menu {
+	width:100%;
+	top:55px;
+	margin:0;
+	right:0;
+	
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+#menu .menu li { width:33.33333333%; }
+
+#menu ul.sub-menu { width:320px; }
+#menu .sub-menu li { width:106px !important; }
+
+#menu .second ul.sub-menu {
+	margin-left: -100% !important;
+}
+#menu .third ul.sub-menu {
+	margin-left: -200% !important;
+}
+#menu .twocolumns { width:66.66666666% !important; }
+#menu .threecolumns { width:100% !important; }
+
+/* set new margin, padding for comments wrapper */
+.comments-wrapper {
+	padding:5px 5px 0 5px;
+}
+
+/* comment form adjustments for mobile screens */
+#respond {
+	height:108px;
+	margin:-4px 5px 5px 5px;
+}
+#respond #submit {
+	top:auto;
+	bottom:0;
+}
+.submit-active {
+	bottom:0 !important;
+	margin:10px -4px 0 0 !important;
+}
+
+
+}
+/**************************************************/

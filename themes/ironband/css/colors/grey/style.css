@@ -1,0 +1,215 @@
+body{
+	color:#1f1f1f;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-color:#000;
+}
+
+a,
+.comment-content a,
+.comment-author .fn,
+.comment-author .url,
+.comment-reply-link,
+.comment-reply-login,
+.comment-meta a:hover,
+.comment-reply-title small a:hover,
+.comments-title,
+.comment-reply-title {
+	color: #73717C;
+}
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+.nav-menu .has-drop-down ul a:hover {
+	background-color: #73717C;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: #fff;
+	background-color: #73717C;
+}
+
+.marquee .tp-leftarrow,
+.marquee .tp-rightarrow{
+	background:#73717C;
+}
+.marquee .more{
+	background:#73717C;
+	color:#fff;
+}
+.player-box .jp-progress .jp-play-bar{
+	background:#73717C;
+}
+.twitter-box .meta .time a{
+	color:#73717C;
+}
+.carousel .btn-prev:hover,
+.carousel .btn-next:hover{
+	background:#73717C;
+}
+.carousel .slide a.hover,
+.article a.hover{
+	background:#73717C;
+	color:#1a1a1a;
+}
+.carousel .date,
+.article .date{
+	color:#73717C;
+}
+.pages .current,
+.pages a:hover,
+.button-more:hover{
+	background:#73717C;
+	color:#1a1a1a;
+}
+.single-post h2{
+	color:#73717C;
+}
+.meta .date{
+	color:#73717C;
+	background:#fff;
+}
+.blockquote-block .title{
+	color:#73717C;
+}
+.blockquote-block figcaption{
+	color:#73717C;
+}
+a.button,
+.comment-form #submit,
+.wpcf7-submit{
+	background:#73717C;
+}
+span.wpcf7-not-valid-tip-no-ajax,
+.wpcf7-response-output{
+	color: #73717C;
+}
+.filters-block a.active{
+	background:#73717C !important;
+}
+.media-block a.hover{
+	background:#73717C;
+	color:#1a1a1a;
+}
+.media-block .date,
+.media-block .category{
+	color:#73717C;
+}
+.photos-list .hover-text span{
+	color:#73717C;
+}
+.contact-box .phone{
+	color:#73717C;
+}
+.form input[type="submit"]{
+	background:#73717C;
+	color:#000;
+}
+.error{
+	color:#73717C
+}
+input.error{
+	border-color:#73717C!important
+}
+.success span{
+	color:#73717C;font-size: 30px;
+}
+.info-section h2{
+	color:#73717C;
+}
+.concerts-list .title-row .date{
+	color:#73717C;
+}
+.concerts-list .title-row .date span{
+	color:#000000;
+}
+.concerts-list .title-row .date span,
+.concerts-list .title-row.hover .buttons{
+	background:#73717C;
+}
+.concerts-list .expanded .title-row .link{
+	color:#73717C !important;
+}
+.concerts-list .title-row.hover .buttons .button{
+	background:#232323;
+	color:#73717C;
+}
+.concerts-list .title-row.hover .button:hover{
+	color:#fff;
+}
+.concerts-list .expanded .title-row .button{
+	background:#73717C !important;
+	color:#000 !important;
+}
+.concerts-list .expanded .title-row:after{
+	background:#73717C;
+}
+#sidebar ul a .number{
+	color:#73717C;
+}
+.subscribe-block label span{
+	color:#73717C;
+}
+.subscribe-block input[type="submit"]:hover{
+	background:#73717C;
+	color:#010101;
+}
+.subscribe-block .status{
+    color:#73717C!important;
+}
+.select-options .item-selected a{
+	background:#73717C;
+}
+.concerts-list .title-row .link{
+	color:#73717C;
+}
+.concerts-list .expanded .title-row .opener:hover:after{
+	background:#73717C;
+}
+.concerts-list .title-row .button{
+	background:#73717C;
+	color:#000;
+}
+.icon-concert-dropdown,
+li.expanded .title-row .icon-concert-dropdown {
+	color: #73717C;
+}
+.media-decoration.media-audio {
+	background: #73717C;
+}
+.media-block a.hover .media-decoration.media-audio,
+.media-block a:hover .media-decoration.media-audio {
+	color: #73717C;
+}
+.media-decoration.media-video {
+	color: #73717C;
+}
+.video-block .btn-play {
+	background-image: url(sprite.png)!important;
+}
+
+.tracks-list .btn-play [class^="icon-"],
+.tracks-list .btn-play [class*=" icon-"],
+.tracks-list .btn-pause [class^="icon-"],
+.tracks-list .btn-pause [class*=" icon-"],
+.player-box a:hover [class^="icon-"],
+.player-box a:hover [class*=" icon-"],
+.social-networks a:hover [class^="icon-"],
+.social-networks a:hover [class*=" icon-"] {
+	background-color: #73717C;
+}
+
+.carousel .video-box .icon-play {
+	background-color: #73717C;
+}
+.carousel .video-box .btn-play {
+	color: #73717C;
+}
+
+#sidebar ul a [class^="icon-"],
+#sidebar ul a [class*=" icon-"] {
+	color: #73717C;
+}

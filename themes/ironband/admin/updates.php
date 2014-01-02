@@ -1,0 +1,223 @@
+<?php
+$iron_updates = array(
+	array(
+		'version' => '1.5.1',
+		'date' =>'18.10.2013',
+		'changes' => array(
+		
+			'Gigs : Restored post_status and trimmed trailing whitespace.',
+			'Gig > Single : Added blank target for ticket link.',
+			'Breadcrumbs: If a static home page is assigned, use it\'s title instead of "Home"',
+			'jQuery Tweet : Added blank targets for all links.',
+			'Fixed bug with redirect on settings update',
+			'Fixed bug with theme deactivating on settings update',
+			'Theme Setup : Trimmed trailing whitespace, cleaned up syntax and added exit after wp_redirect() called in iron_theme_activation()',
+			'Taxonomies > Video + Photo : Changed taxonomies to hierarchical (like categories). Previously behaved like tags.',
+			'ACF : Removed ACF fields for Video/Photo taxonomies. Using native WordPress meta box.',
+			'Upgrade system now streamlined as a "version number"-oriented process rather than "feature detection" process.',
+			'Integrated 1.4.1 migrations with additional fixes related to ACF field keys beeing forgotten from deletion process.',
+			'Taxonomies : Enabled taxonomy meta boxes. Deleted previous code related to ACF drop down.',
+			'Theme Options > Social Media > Facebook App ID : Update description of field',
+			'Functions : Cleaned up syntax and trimmed trailing whitespace.',
+			'Fixed WP_Query filters for Gigs',
+			'Theme Options : Added text field for audio player call-to-action label.',
+			'Added ZIP for Slider Revolution and requirement for TGM Plugin Activation',
+			'Theme Options : Added field to select a slider from Slider Revolution.',
+			'Disabled jQuery Slider Revolution',
+			'Home > Slider : Updated function to use WordPress Slider Revolution instead of deprecated jQuery solution.',
+			'CSS : Updated z-indexes to accomodate for WordPress Slider Revolution.',
+			'Replaced Oswald web font with new version that includes all western characters and glyphs.',
+			'CSS : Updated @font-face declaration for Oswald web font and all occurrences in document with proper styles.',
+			'CSS : Simplified font-family declarations to use sans-serif and serif only since stacked fonts were system defaults.',
+			'Home Page Blocks : Fixed widget labels for Gigs and Videos not displaying. Mixed up conditional order.',
+			'Home Page Blocks : Standardized PHP structure for News, Gigs, and Videos, for future merger.',
+			'JS : Revamped AJAX "Load More" Pagination.',
+			'Fixed bug with header menu custom background color',
+			'Home > Blocks : Fixed PHP Notices.',
+			'Site Header : Balanced out widths between Logo, Slogan, and Quote to prevent layout breaks because sum was wider than container.',
+			'Fix blockquote occurences to be semantic, as per HTML5 specification.',
+			'Taxonomies : Added terms to post_class filter.',
+			'Photos/Videos Grid : Refactored Quicksand implementation.',
+			'Home > Slider : Fixed line height; Used a normalized EM unit and removed padding variation for smaller viewports because of EM advantage.',
+			'Home > Slider : Activated fullWidth option to center image.',
+			'JS : Replaced double-quotation marks with single-quotation marks where applicable.',
+			'Home > Slider : Added extra media queries for caption font-size. Normalized font-sizes and line-height.',
+			'Site Header : Updated markup and styles to justify and vertically center logo, slogan, and quote.',
+			'Theme Options : Fixed typo for default Site Header quote.',
+			'fixed bug with header menu custom background color',
+			'Home > Slider : Improved CSS to support responsive measures.',
+			'Photo/Video Grid : Improved width/height settings. Demo images too small.',
+			'Video Grid : Replaced hovered label with video title.'
+		)
+	),	
+	array(
+		'version' => '1.5',
+		'date' =>'26.09.2013',
+		'changes' => array(
+
+			'Fixed bug with Infinite Scroll on Mobile Devices',
+			'Gigs: Show past events if it\'s still within the same day',
+			'Gigs: Fixed bug with time not showing even if the option "Show time" is active.',
+			'Home > Gigs : Fixed Gig links',
+			'Fixed bug with "show at most" options',
+			'Social Network : Added Instagram',
+			'Discography > Single : Remove the title « Album Description »',
+			'Discography > Single : Remove « Track Listing » if no tracks found',
+			'Discography : Added "external link" field for albums',
+			'Standardized Date/Time within templates',
+			'Added an option to disable the fixed header on scroll',
+			'Added an option to disable niceScroll',
+			'Removed all color styles from the base style.css',
+			'Create additional template pages for News and Videos, (List / Grid)',
+			'Personalize blocks titles and call to action texts',
+			'Dynamic Change-log updates within option panel',
+			'Gigs: Added option to hide the date',
+			'Gigs: Modified the look and feel',
+			'Header Quote: Removed double quotes if quote is empty',
+			'Added the plugin Google Analytics for Wordpress within the optional theme plugins',
+			'Replaced archive static title with page title',
+			'Updated default data',
+			'Automatically assign static pages (Front Page / Blog Page) after importing default data'
+		)
+	),
+	array(
+		'version' => '1.4.3',
+		'date' =>'16.09.2013',
+		'changes' => array(
+
+			'Fixed bug with page background colour overridden by default background',
+			'Fixed gig link from homepage',
+			'Post Types : Fixed typo on `supports` parameter'
+		)
+	),
+	array(
+		'version' => '1.4.2',
+		'date' =>'15.09.2013',
+		'changes' => array(
+
+			'Fixed bug with gig dates on the home page',
+			'Fixed bug with error showing on a category page',
+			'Fixed custom post type thumbnail support'
+		)
+	),
+	array(
+		'version' => '1.4.1',
+		'date' =>'14.09.2013',
+		'changes' => array(
+
+			'Content type carousels now fetch title from associated page template',
+			'Added text fields to customize default playlist and Twitter block',
+			'Added text fields to customize Gig calls to action',
+			'Added text fields to customize Newsletter title and submit button',
+			'Added blank image for default album thumbnail',
+			'i18n : Replaced miused _x() with __()',
+			'Taxonomies : Cleaned up trailing whitespace and abuse of indentation',
+			'Modified PHP syntax for post types to match taxonomy style',
+			'Added option to configure number of slides to display on home page',
+			'Globalized post_status and posts_per_page settings in pre_get_posts',
+			'Archives : Removed Archive suffix from index titles related to wp_title.',
+			'Reorganized the fields in the Content Type tab for better readability of options',
+			'Added settings to control posts per page for each custom content type',
+			'Comments : Fixed submit button to match color palette.',
+			'Archive : Moved get_header() to top of file to prevent fallback loop from breaking the title.',
+			'Archive > News : Swapped labels for Next and Previous links.',
+			'Pagination > posts_nav_link : Fixed links to match color palette.',
+			'Updated Advanced Custom Fields to 4.2.2',
+			'Fontello : Opera fails to fallback from FontAwesome to Fontello. Added CSS hack to target it and override its first webfont as Fontello.',
+			'Gigs : Added title to events; Cleaner title output for Albums.',
+			'Post Types : Added custom columns to all custom post types.',
+			'Post Types : Improved display of URLs for Slideshows and Gigs.',
+			'Taxonomies : Enabled display of taxonomy column for post types.',
+			'Site Footer : Fixed layout of logo and social networks on palm-sized viewports.',
+			'Gigs : Fixed & Centralized WP Querying',
+			'Homepage Slider : Fixed PHP notice related to empty slides. Replaced query_posts with WP_Query.',
+			'Added Individual Page Background Settings',
+			'Updated jPlayer Plugin to v2.4.0',
+			'Added Newsletter export option',
+			'Migrated Gigs dates to native WordPress post_date'
+		)
+	),
+	array(
+		'version' => '1.4',
+		'date' =>'05.09.2013',
+		'changes' => array(
+
+			'Fixed bug with audio player'
+		)
+	),
+	array(
+		'version' => '1.3',
+		'date' =>'04.09.2013',
+		'changes' => array(
+
+			'Fixed bug with nav menu / theme location',
+			'Made sure to use native WordPress jQuery version',
+			'Automatically assign pages to templates after importing default data',
+			'Automatically assign content types within admin panel after importing default data'
+		)
+	),
+	array(
+		'version' => '1.2',
+		'date' =>'30.08.2013',
+		'changes' => array(
+
+			'Added Wordpress native pagination support',
+			'Now support 4 types of pagination',
+			'Placed wp_head immediately before head closing tag',
+			'Fixed minor bug'
+		)
+	),
+	array(
+		'version' => '1.1',
+		'date' =>'23.08.2013',
+		'changes' => array(
+
+			'Followed most of the Wordpress Theme Unit Tests',
+			'Functions : Removed deprecated variable that was causing PHP notices.',
+			'Fixed PHP notices and presentation of elements for Gigs and Videos.',
+			'Updated TGM-Plugin-Activation Class',
+			'WP Nav Menu : Improved CSS for wp_page_menu() fallback',
+			'Redux Framework : Suppressed illegal offsets on values.',
+			'Theme Options : Removed trailing slashes',
+			'Theme Options : Added icons and touch-icons as settings with default collection of images',
+			'jQuery : Removed source map to reduce unneeded request',
+			'Added default favicon and apple-touch-icons',
+			'Meta Data : Added Apple Mobile Web App Title to frontend',
+			'Favicon : Added MIME type and HTML tag to WP Dashboard.',
+			'Improved usage of conditional scripts for Internet Explorer',
+			'JS : Reorganized main scripts and custom scripts',
+			'Photos Template : Simplified HTML/JS',
+			'Removed dummy text from image alt attributes.',
+			'Photos : Added new post image size, "image-thumb", for the photo gallery.',
+			'Front Page : Added global declaration of to prevent PHP warning.',
+			'Music Playlist : Improved selection and loading of music playlist and reduced error cases related to empty playlists.',
+			'Custom Fields : Fixed missing page template location for Music Playlist.',
+			'Single : Migrated AddThis and Comments to external files for less redundant code.',
+			'Discography : Fixed btn-pause icon not synced with btn-play.',
+			'Fixed spacing for Discography tracklist, Cleaned up padding for social network icons.',
+			'Breadcrumbs : Fixed hardcoded links to use home_*_link options.',
+			'Home > Videos : Added alternative layout in case no image is provided to prevent layout breaking.',
+			'Home : Various fixes to audio player and events',
+			'Utilities JS : Fixed unnecessary space added when removing class names.',
+			'Single Post : Wrapped content for easier CSS targeting.',
+			'Fixed top navigation bar overflow when affixed',
+			'Wrapped images in articles to provide consistent heights between posts',
+			'Added WordPress default styles for aligning and captioning images',
+			'Functions : Fixed misuse of category variable, Limited Blog Posts to published posts.',
+			'Main JS : Removed console log, fixed missing TouchNav capabilities for affixed top navigation bar.',
+			'Comments : Added conditional display of Facebook Comments.',
+			'Single Post, Page : Added content pagination.',
+			'Gigs : Added proper meta_query date filter to display events occuring now or later.',
+			'Added clearfix to entry content.',
+			'Fixed bugs related to Internet Explorer.'
+		)
+	),
+	array(
+		'version' => '1.0',
+		'date' =>'16.08.2013',
+		'changes' => array(
+
+			'Initial Version'
+		)
+	)
+);
